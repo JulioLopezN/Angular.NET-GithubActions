@@ -1,6 +1,6 @@
 FROM node:16-alpine AS build
 WORKDIR /src
-COPY ["package*.json", "."]
+COPY ["package*.json", "/src"]
 RUN npm ci
 COPY . .
 RUN npm run build
