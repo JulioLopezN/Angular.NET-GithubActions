@@ -1,0 +1,12 @@
+**/.angular
+**/.vscode
+**/node_modules
+**/npm-debug.log
+**/.git
+**/.gitignore
+**/.dockerignore
+**/docker-compose*
+**/Dockerfile*
+dist
+LICENSE
+README.md
